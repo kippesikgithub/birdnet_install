@@ -7,7 +7,6 @@ Using Birdnet to detect birds songs using the RTSP audio provided by IP Camera
   - paho-mqtt version must be downgraded to paho-mqtt 1.6.2 to make notifications work
   - the mqtt-json output works with the 'test' button, but in the real message it fucks up the JSON data (leading forward slash)
 
-
 ### BirdnetPi on Proxmox
 Start by creating an LXE in Proxmox using the following tutorial  
 https://github.com/MatthewBCooke/BirdNET-Pi/blob/debian/setup/README.md  
