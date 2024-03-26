@@ -1,0 +1,10 @@
+[Unit]
+Description=BirdNET MQTT Publish
+[Service]
+Restart=always
+Type=simple
+RestartSec=5
+User=root
+ExecStart=/usr/bin/python3 /usr/local/bin/birdnet_to_mqtt.py
+[Install]
+WantedBy=multi-user.target
