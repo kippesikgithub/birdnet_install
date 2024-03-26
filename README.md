@@ -13,6 +13,10 @@ For adding a RTSP/ONVIF audio stream, coming from a IP camera for example, we ha
 **2:** Use Go2RTC to connect camera's to your 'server' and distribute from there  
 I would advise to use Go2RTC as a video/audio distributing platform, so there is only 1 active datastream from/to the IP camera itself (bandwith efficiensy and some IP camera's have issues maintaining more than 1 active RTSP stream)  
 
+### Connect to MQTT and Home Assistant
+Guide used for connecting and sending the BirdnetPi results to MQTT and Home Assistant (I Modified the script based on my needs, see birdnet_to_mqtt.py)  
+https://gist.github.com/deepcoder/c309087c456fc733435b47d83f4113ff
+
 ### Screenshots and config
 ![image](https://github.com/kippesikgithub/birdnet_install/assets/100353268/e8023f62-c776-4ba3-b326-98e87196616c)  
 Default username/password for config/tools  
