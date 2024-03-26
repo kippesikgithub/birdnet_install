@@ -20,6 +20,12 @@ Default username/password for config/tools
 ![image](https://github.com/kippesikgithub/birdnet_install/assets/100353268/b789952a-ce69-4dc9-b8b4-788123b3b837)  
 Top 10 Birds example (BirdNetPi frontpage)  
 
+![image](https://github.com/kippesikgithub/birdnet_install/assets/100353268/7c037dc6-2a61-482c-bd9d-b0d7dd4a5249)  
+Species stats example  
+
+![image](https://github.com/kippesikgithub/birdnet_install/assets/100353268/edb9ab05-164f-41f6-a448-f537a66f4179)  
+RTSP config
+
 ![image](https://github.com/kippesikgithub/birdnet_install/assets/100353268/b0766ce2-5d19-4c4b-8159-dc008423ca80)  
 ![image](https://github.com/kippesikgithub/birdnet_install/assets/100353268/eeb94ba5-0567-4098-8447-3c32ccc9151e)  
 Tensorflow model config  
