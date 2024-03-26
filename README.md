@@ -36,7 +36,7 @@ RTSP config
 
 ![image](https://github.com/kippesikgithub/birdnet_install/assets/100353268/b0766ce2-5d19-4c4b-8159-dc008423ca80)  
 ![image](https://github.com/kippesikgithub/birdnet_install/assets/100353268/eeb94ba5-0567-4098-8447-3c32ccc9151e)  
-Tensorflow model config  
+Tensorflow model config (for testing I use confidentlevel around 0,3, in production I use 0,6)
 
 
 
