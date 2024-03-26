@@ -2,7 +2,7 @@
 Using Birdnet to detect birds songs using Tensorflow model on the RTSP audio provided by an IP Camera in the backyard
 
 ### Hardware used
-- Camera: Foscam C1 microphone (already in the birdhouse, used by frigate to detects birds in the videostream, outside the house/garage)
+- Camera: Foscam C1 rtsp-audio (already in the birdhouse, used by frigate to detects birds in the videostream, outside the house/garage)
 - Proxmox Server (already running a lot of LXE and VM)
 
 #### Best-Practice (good to know upfront)
@@ -33,7 +33,9 @@ Parts I modified:
 
 
 ### Screenshots and config
-
+![image](https://github.com/kippesikgithub/birdnet_install/assets/100353268/296cdbd6-1dad-4254-9a66-14ac2197ef28)
+![image](https://github.com/kippesikgithub/birdnet_install/assets/100353268/0fecb7b1-81ed-4328-9157-7a7c22bbb7cd)
+![image](https://github.com/kippesikgithub/birdnet_install/assets/100353268/7ad784ed-9482-4b03-bd02-2b858184b326)
 Foscam C1 in the birdhouse (videostream used by frigate to detect birds)  
 
 ![image](https://github.com/kippesikgithub/birdnet_install/assets/100353268/e8023f62-c776-4ba3-b326-98e87196616c)  
