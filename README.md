@@ -1,5 +1,5 @@
-# Birdnet
-Using Birdnet to detect birds songs using Tensorflow model on the RTSP audio provided by an IP Camera in the backyard
+# BirdnetPi
+Using BirdnetPi on Proxmox to detect birds songs using Tensorflow model on the RTSP audio provided by an IP Camera in the backyard
 
 ### Hardware used
 - Camera: Foscam C1 rtsp-audio (already in the birdhouse, used by frigate to detects birds in the videostream, outside the house/garage)
