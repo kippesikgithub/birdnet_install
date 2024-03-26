@@ -1,6 +1,13 @@
 # Birdnet
 Using Birdnet to detect birds songs using the RTSP audio provided by IP Camera  
 
+#### Best-Practice (good to know upfront)
+- Birdnet is very easy to use
+- The Apprise (notifying) part of Birdnet is not working properly (multiple reasons)
+  - paho-mqtt version must be downgraded to paho-mqtt 1.6.2 to make notifications work
+  - the mqtt-json output works with the 'test' button, but in the real message it fucks up the JSON data (leading forward slash)
+
+
 ### BirdnetPi on Proxmox
 Start by creating an LXE in Proxmox using the following tutorial  
 https://github.com/MatthewBCooke/BirdNET-Pi/blob/debian/setup/README.md  
@@ -37,7 +44,11 @@ RTSP config
 
 ![image](https://github.com/kippesikgithub/birdnet_install/assets/100353268/b0766ce2-5d19-4c4b-8159-dc008423ca80)  
 ![image](https://github.com/kippesikgithub/birdnet_install/assets/100353268/eeb94ba5-0567-4098-8447-3c32ccc9151e)  
-Tensorflow model config (for testing I use confidentlevel around 0,3, in production I use 0,6)
+Tensorflow model config (for testing I use confidentlevel around 0,3, in production I use 0,6)  
+
+![image](https://github.com/kippesikgithub/birdnet_install/assets/100353268/9b242827-701e-4729-88f2-7fbbc91b4640)  
+Home Assistant Example of recently heard birds (birdnet_to_mqtt.py used)
+
 
 
 
