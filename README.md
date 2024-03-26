@@ -12,10 +12,11 @@ Using BirdnetPi on Proxmox to detect birds songs using Tensorflow model on the R
   - the mqtt-json output works with the 'test' button, but in the real message it fucks up the JSON data (leading forward slash)
 
 ### BirdnetPi on Proxmox
-Start by creating an LXE in Proxmox using the following tutorial  
-https://github.com/MatthewBCooke/BirdNET-Pi/blob/debian/setup/README.md  
-Finish the setup using the following tutorial from Step 21  
-https://github.com/mcguirepr89/BirdNET-Pi/wiki/Installation-Guide  
+Create your own Birdnet environment in a proxmox LXC
+- Start by creating an LXE in Proxmox using the following tutorial  
+  - https://github.com/MatthewBCooke/BirdNET-Pi/blob/debian/setup/README.md  
+- Finish the setup using the following tutorial from Step 21  
+  - https://github.com/mcguirepr89/BirdNET-Pi/wiki/Installation-Guide  
 
 ### RTSP Audio Stream
 For adding a RTSP/ONVIF audio stream, coming from a IP camera for example, we have 2 options:  
