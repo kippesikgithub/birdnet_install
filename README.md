@@ -15,7 +15,11 @@ I would advise to use Go2RTC as a video/audio distributing platform, so there is
 
 ### Connect to MQTT and Home Assistant
 Guide used for connecting and sending the BirdnetPi results to MQTT and Home Assistant (I Modified the script based on my needs, see birdnet_to_mqtt.py)  
-https://gist.github.com/deepcoder/c309087c456fc733435b47d83f4113ff
+https://gist.github.com/deepcoder/c309087c456fc733435b47d83f4113ff  
+Parts I modified:  
+- Change MQTT server IP
+- Added function to use Username/Password for connecting to MQTT
+
 
 ### Screenshots and config
 ![image](https://github.com/kippesikgithub/birdnet_install/assets/100353268/e8023f62-c776-4ba3-b326-98e87196616c)  
