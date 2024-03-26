@@ -1,5 +1,6 @@
 # Birdnet
-Using Birdnet to detect birds songs using the RTSP audio provided by IP Camera  
+Using Birdnet to detect birds songs using Tensorflow model on the RTSP audio provided by an IP Camera in the backyard  
+Camera used: Foscam C1 (already in the birdhouse, used by frigate to detects birds in the videostream, outside the house/garage)  
 
 #### Best-Practice (good to know upfront)
 - Birdnet is very easy to use
@@ -29,6 +30,9 @@ Parts I modified:
 
 
 ### Screenshots and config
+
+Foscam C1 in the birdhouse (videostream used by frigate to detect birds)  
+
 ![image](https://github.com/kippesikgithub/birdnet_install/assets/100353268/e8023f62-c776-4ba3-b326-98e87196616c)  
 Default username/password for config/tools  
 
